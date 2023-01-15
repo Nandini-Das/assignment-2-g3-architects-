@@ -268,6 +268,7 @@ body{
 .footer-description{
     color: #424242;
 }
+
 /* styles for small device */
 @media only screen  and (max-width: 480px){
     
@@ -372,5 +373,112 @@ body{
         margin: 0px;
     }
     
+}
+
+
+/* styles for medium device */
+@media only screen  and (min-width: 480px) and (max-width: 967px){
+    
+    .heading-title{
+        margin-left: 0px;
+      }
+    .header-top{
+        
+        grid-template-columns: repeat(2, 1fr);
+       
+    }
+    .nav{
+    
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        text-align: left;
+    }
+    .banner-image img{
+      width: 100%
+    }
+    .feature{
+        flex-direction: row;
+    }
+    .feature-images{
+       
+        grid-template-columns: repeat(2, 1fr);
+        justify-content: space-evenly;
+        width: 100%;
+        
+    }
+    .feature{
+        flex-direction: column;
+        text-align: left;
+    }
+    .features{
+        margin: 0px 0px;
+    }
+    .feature-description{
+        margin-top: 50px;
+        width: 75%;
+    }
+    .feature-you{
+        grid-template-columns: repeat(2, 2fr);
+    }
+    .feature-you-title{
+       
+        padding-left: 0px;
+        margin-bottom: 0px;
+    }
+    .feature-box{
+        
+        padding: 0px;
+        margin-top: 0px;
+        margin-bottom: 0px;
+        
+    }
+    .feature-architect-image img{
+        width: 70%;
+        height: 100%;
+       
+    }
+    .feature-you-will-love-and-enjoy{
+        margin-left: 30px;
+    }
+    .facts-section{
+        margin: 0px 0px;
+    }
+    
+    .facts{
+        flex-direction: column;
+        gap: 50px;
+        margin: 0px;
+
+    }
+    .facts-title{
+        margin: 150px 0px 0px 5px;
+    }
+    .fact-description{
+        margin: 20px 10px;
+    }
+    .sponsor-head{
+        text-align: left;
+        margin:0px;
+    }
+    .sponsor-images{
+        flex-direction: column;
+        width: 100%;
+    } 
+    .sponsor-img{
+
+        padding: 5px;
+        width: 100%;
+    }
+    
+    .contact{
+        flex-direction: column;
+        margin: 0px 0px ;
+        padding: 0px;
+        width: 100%;
+    } 
+    .footer{
+        margin: 0px;
+    }
     
 }
